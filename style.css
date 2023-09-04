@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    max-width: 400px;
+    padding: 1rem;
+    height: 400px;
+    max-height: 400px;
+    background-color: #e3e3e3;
+    overflow-y: scroll;
+}
+
+button{
+    border: none;
+}
+form h1{
+    text-align: center;
+}
+
+form .btn-container{
+    display: flex;
+    gap:1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+form .btn-container .btn{
+    box-shadow: 0 .2rem .3rem rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+form .btn-container input{
+    width: 100%;
+    height: 3rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .3rem rgba(0, 0, 0, .5);
+    border: none;
+}
+
+form .btn-container input:focus{
+    outline:  2px solid rgb(212, 255, 248);
+}
+.container{
+    margin-top: 1rem;
+  
+}
+
+.container .fa-trash-can{ 
+    color: red;
+}
+
+.container .fa-pencil{
+    font-size: .8rem;
+}
+.list{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    padding: .5rem;
+    font-weight: 100;
+    margin-top: .5rem;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+
+.list p{
+    margin-right: auto;
+    padding-right:5px;
+}
